@@ -1,0 +1,45 @@
+#1. print anything you want on screen
+>>> print("hello, iam shubham guleria")
+hello, iam shubham guleria
+
+
+#2. join two strings using '+'
+>>> a="acad"
+>>> b="View"
+>>> print(a+b)
+acadView
+>>> print('"acad"+"View"')
+"acad"+"View"
+
+
+#3. Take the input of 3 variables x, y and z . Print their values on screen.
+ 
+print('the value of x =',x,"\nthe value of y=",y,"\nthe value of z=",z)
+	  
+the value of x = 4 
+the value of y= 5 
+the value of z= 6
+
+
+#4. Print “Let’s get started” on screen.
+
+print("let\'s get started")
+	  
+let's get started
+
+
+
+#5. Print the following values using placeholders.
+
+print("institute name is ",s,",course name is ",course,",fees is",fees)
+	  
+institute name is  Acadview ,course name is  python ,fees is 5000
+
+
+# question 6 (this is the way i was talking during lecture. is it right mam..?)
+print("my name is {} and my salary is {}".format(name,salary))
+	  
+my name is Shubham Guleria and my salary is 1000000
+
+
+
