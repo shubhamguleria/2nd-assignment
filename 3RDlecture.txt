@@ -1,0 +1,46 @@
+Q.1- Create a list with user defined inputs. 
+
+animal=['rat','cat','lion','tiger']
+>>> print(animal)
+['rat', 'cat', 'lion', 'tiger']
+
+Q.2- Add the following list to above created list:
+
+animal+['google','apple','facebook','microsoft','tesla']
+['rat', 'cat', 'lion', 'tiger', 'google', 'apple', 'facebook', 'microsoft', 'tesla']
+
+Q.3-Count the number of time an object occurs in a list.
+
+  num=['1','5','9','1','8','3','6','3','1','2','1']
+>>> num.count('1')
+4
+
+Q.4- create a list with numbers and sort it in ascending order. 
+
+  num=['1','5','9','1','8','3','6','3','1','2','1']
+ num.sort()
+>>> num
+['1', '1', '1', '1', '2', '3', '3', '5', '6', '8', '9']
+
+Q.5_
+
+    
+A=['2','4','3','6','8','2','2','1']
+B=['9','10','8','4','3','5','6','9','0']
+C=A+B
+>>> print(C)
+['1', '2', '2', '2', '3', '4', '6', '8', '9', '10', '8', '4', '3', '5', '6', '9', '0']
+>>> C.sort()
+>>> C
+['0', '1', '10', '2', '2', '2', '3', '3', '4', '4', '5', '6', '6', '8', '8', '9', '9']
+
+
+Q.6-Implement a stack and queue using lists. 
+
+stack=['red','blue','green','yellow','magenta','purple']
+>>> stack.append('violet')
+>>> stack
+['red', 'blue', 'green', 'yellow', 'magenta', 'purple', 'violet']
+>>> stack.pop()
+'violet'
+   
