@@ -1,0 +1,81 @@
+question no.1
+
+tuples=('hello',0.8,7,-4)
+>>> len(tuples)
+4
+
+question no.2
+
+
+ maximum=(3,4,5,6,8,9,2)
+>>> max(maximum)
+9
+>>> min(maximum)
+2
+
+
+question no.3
+
+ maximum=(3,4,5,6,8,9,2)
+ print(maximum*3)
+(3, 4, 5, 6, 8, 9, 2, 3, 4, 5, 6, 8, 9, 2, 3, 4, 5, 6, 8, 9, 2)
+
+or 
+
+t=tuple()
+>>> t=(1,2,3,4,5)
+>>> type(t)
+<class 'tuple'>
+>>> t[0]*t[1]*t[2]*t[3]*t[4]
+120
+
+
+SETS
+question no.1
+
+n=set([4,6,7,7,8])
+>>> s=set([7,8,7,3,2,1])
+>>> n-s
+{4, 6}
+
+compare
+
+n=set([4,6,7,7,8])
+>>> s=set([7,8,7,3,2,1])
+n==s
+False
+
+intersection
+n=set([4,6,7,7,8])
+>>> s=set([7,8,7,3,2,1])
+n=set([4,6,7,7,8])
+
+
+Dictionaries
+
+question no.1
+
+dict1={'manish':13,'anup':23,'muney':43,'shila':65,'happy':87,'hell':98,'akshay':67,'anil':68,'akshay':26,'vard':39}
+dict1['manish']
+13
+
+
+question no.3
+
+S='MISSISSIPPI'
+>>> m=S.count("M")
+>>> m
+1
+>>> i=S.count("I")
+>>> s=S.count("S")
+>>> p=S.count("P")
+>>> D=dict()
+>>> type(D)
+<class 'dict'>
+D={'M':m,'I':i,'S':s,'P':p}
+>>> print(D)
+{'M': 1, 'I': 4, 'S': 4, 'P': 2}
+
+
+
+
