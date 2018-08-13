@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Question1\
+y=int(input("Enter a year: "))\
+if (y % 4) == 0:\
+    if (y % 100) == 0:\
+        if (y % 400) == 0:\
+            print("It is a leap year")\
+        else:\
+            print("It is not a leap year")\
+    else:\
+        print("It is not a leap year")\
+else:\
+    print("It is not a leap year")\
+    \
+\
+\
+Question2\
+l=int(input("Enter the length: "))\
+b=int(input("Enter the breadth: "))\
+if l == b:\
+    print("It is a square")\
+else:\
+    print("It is a rectangle")\
+    \
+\
+\
+Question3\
+first = int(input("Enter first age"))\
+second = int(input("Enter second age"))\
+third = int(input("Enter third age"))\
+\
+if first >= second and first >= third:\
+  print ("Oldest is",first)\
+elif second >= first and second >= third:\
+  print ("Oldest is",second)\
+elif third >= first and third >= second:\
+  print ("Oldest is",third)\
+else:\
+  print ("All are equal")\
+if first <= second and first <= third:\
+  print ("youngest is",first)\
+elif second <= first and second <= third:\
+  print ("youngest is",second)\
+elif third <= first and third <= second:\
+  print ("youngest is",third)\
+else:\
+  print ("All are equal")\
+\
+\
+\
+Question4\
+p=int(input("Enter points: "))\
+if p>=1 and p<=50:\
+  print("Sorry! No prize this time.")\
+elif p>=51 and p<=150:\
+  print("Congratulations! You won a Wooden Dog.")\
+elif p>=151 and p<=180:\
+  print("Congratulations! You won a Book.")\
+elif p>=181 and p<=200:\
+  print("Congratulations! You won a Chocolates.")\
+else:\
+  print("Your points are invalid.")\
+\
+\
+\
+Question5\
+q=int(input("Enter the quantity: "))\
+z=q * 100\
+if z > 1000:\
+    print("Discount is available.")\
+    x=z*10/100\
+    print("Cost after discount is: ",x)\
+else:\
+    print("Discount isn't available.")\
+\
+\
+    \
+}
