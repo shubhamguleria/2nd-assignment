@@ -1,0 +1,78 @@
+question no1
+
+"
+def area():
+    r=int(input("enter the radius:= "))
+    a= 3.14*r**2;
+    print("area of the circle =",a);
+area()
+
+"
+
+question no2
+
+"
+def perfect(n):
+    for x in range(1,1000):
+        if n%x==0:
+            sum=sum+x
+        if sum==n:
+            return(n)
+perfect(4)  
+
+
+"
+
+
+question no3
+
+
+"
+def mul(num):
+    if num==120:
+        exit
+    else:
+        for i in range(1,num-1):
+            print(num,'*',i,'=',num*i);
+        
+    
+mul(12)
+
+"
+
+
+
+question no4
+
+
+"
+def power(base,exp):
+    
+    if (exp==1):
+        return base
+    if (exp!=1):
+        return(print(base**exp))
+    
+
+power(2,4)
+
+
+
+"
+question no5
+
+"
+def fact(n):
+    d={"dictionary {}".format(n)}
+    print(d)
+    if(n<=1):
+        
+        return 1
+    else:
+        return(n*fact(n-1))
+    
+fact(4)
+
+
+
+"
