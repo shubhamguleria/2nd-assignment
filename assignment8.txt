@@ -1,0 +1,89 @@
+question no1.
+#taking partial imformation and giving full imformation.
+
+"
+d=datetime.date(2018,10,18)
+>>> d.timetuple()
+time.struct_time(tm_year=2018, tm_mon=10, tm_mday=18, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=291, tm_isdst=-1)
+
+"
+
+question no2
+
+"
+import time
+t=time.gmtime()
+>>> time.asctime(t)
+'Thu Aug 16 07:53:55 2018'
+"
+
+question no3
+
+"
+time.strftime('%m')
+'08'
+"
+
+question no4
+
+
+"
+time.strftime('%d')
+'16'
+
+"
+
+
+question no5.
+
+"
+time.strftime('%d/%m/%y')
+'16/08/18'
+"
+
+question no6.
+
+
+"
+print(time.localtime(time.time()))
+time.struct_time(tm_year=2018, tm_mon=8, tm_mday=16, tm_hour=13, tm_min=45, tm_sec=35, tm_wday=3, tm_yday=228, tm_isdst=0
+"
+
+
+question no7.
+
+"
+import math
+>>> print(math.factorial(5))
+120
+"
+
+question no8
+
+"
+def mat():
+	a=int(input("enter the value 1: "))
+	b=int(input("enter the value 2: "))
+	c=math.gcd(a,b)
+	print(c)
+
+>>> mat()
+enter the value 1: 45
+enter the value 2: 65
+5
+
+"
+
+
+question no9
+
+"
+import os
+>>> os.getcwd()
+'C:\\Python'
+
+
+os.environ()
+
+
+"
