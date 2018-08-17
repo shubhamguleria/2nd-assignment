@@ -1,0 +1,101 @@
+question no1.
+
+"
+import math
+class Jet:
+	def __init__ (self):
+		self.r=int(input("enter the radius of the circle: "))
+	def mes(self):
+		print("area of the circle is:",math.pi*self.r**2)
+		print("circumference of the circle is",2*math.pi*self.r
+
+enter the radius of the circle: 4
+>>> prin.mes()
+area of the circle is: 50.26548245743669
+circumference of the circle is 25.132741228718345
+
+"
+
+
+question no2.
+
+
+"
+class Student:
+	def __init__ (self,name,roll):
+		self.name=name
+		self.roll=roll
+	def display(self):
+		print("\n\t student name is ",self.name)
+		print("\n\t student roll no is",self.roll)
+stu=Student("shubham",32)
+>>> stu.display()
+
+	 student name is  shubham
+
+	 student roll no is 32
+
+"
+
+
+question no3.
+
+
+"
+class temp:
+	def __init__(self,f,c):
+		self.far=f
+		self.cel=c
+	def temp(self):
+		print("far to cel:",self.far-32*5/9)
+		print("cel to far:",self.cel*9/5+32)
+
+		
+>>> obj=temp(47,34)
+>>> obj.temp()
+far to cel: 29.22222222222222
+cel to far: 93.2
+>>> 
+
+
+
+"
+
+question no4
+
+"
+class MovieDetails:
+	def __init__ (self,Mname,artist,yor,rating):
+		self.m_name=Mname
+		self.a_name=artist
+		self.m_yor=yor
+		self.m_rating=rating
+		
+	def temp(self):
+		print("movie name is ",self.m_name)
+		print("artist name is ", self.a_name)
+		print("Year of realising ",self.m_yor)
+		print("rating is ",self.m_rating)
+
+		
+>>> obj=MovieDetails("gajni","aamir",2018,5.5)
+>>> obj.temp()
+movie name is  gajni
+artist name is  aamir
+Year of realising  2018
+rating is  5.5
+"
+
+
+question no5
+
+"
+class expenditure:
+    def __init__(self,ex,s):
+        self.exp=ex
+        self.sav=s
+    def display(self):
+        print("Expenditure: ",self.exp,"\n Salary: ",self.sav)
+    def cal(self):
+        print("Total Salary: ",self.exp+self.sav)
+"
