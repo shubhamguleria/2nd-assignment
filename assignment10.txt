@@ -1,0 +1,96 @@
+question no.1
+
+"
+class Animal:
+	def animal_attribute(self,name,sound):
+		print(name,"has sound like",sound)
+
+		
+>>> class Tiger(Animal):
+	def show(self,name,sound)
+	
+SyntaxError: invalid syntax
+>>> class Tiger(Animal):
+	def show(self,name,sound):
+		self.animal_attribute(name,sound)
+
+		
+>>> t=Tiger()
+>>> t.show()
+
+
+"
+
+question no.2
+
+"
+A B
+A B
+
+"
+question no.3
+
+"
+>>> class Cop:
+	name=""
+	work_experience=1
+	designation=""
+
+	def add(self,n,w,d):
+		self.name=n
+		self.work_experience=w
+		self.designation=d
+
+	def display(self):
+		print("name:" , self.name)
+		print("work experience:" , self.work_experience)
+		print("designation:" , self.designation)
+
+		
+>>> class Mission(cop):
+	def add_mission_details(self,m):
+		print("mission",m)
+
+
+c=Mission()
+>>> c.add("shubhamguleria",45,"SP")
+>>> c.display()
+
+name: shubhamguleria
+work experience: 45
+designation: SP
+
+
+"
+
+question no4
+"
+
+class Shape:
+   length=int()
+   breadth=int()
+   def area(self,l,b):
+       self.length=l
+       self.breadth=b
+       return self.length*self.breadth
+
+class Rectangle(Shape):
+   def display_area(self):
+      l=int(input("Enter length of rectangle: "))
+      b=int(input("Enter breadth of rectangle: "))
+      print("Area of Rectangle: ",self.area(l,b))
+
+
+
+class Square(Shape):
+   def display_area(self):
+      a=int(input("Enter side length of square: "))
+      print("Area of Rectangle: ",self.area(a,a))
+
+s= Square()
+s.display_area()
+
+r= Rectangle()
+r.display_area()
+
+"
