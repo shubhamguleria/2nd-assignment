@@ -1,0 +1,60 @@
+question no1>
+"
+from tkinter import *
+
+
+root=Tk()
+
+root.geometry("80x80")
+
+root.title("My second application")
+
+sb=Scrollbar(root)
+sb.pack(side=RIGHT,fill=Y)
+l=Listbox(root,yscrollcommand=sb.set)
+d={'abc':123,'def':456,'ghi':789,'jkl':987,'mno':4546,'pqr':7895,'stuc':5312}
+for key in d.keys():
+    l.insert(END," "+str(key))
+l.pack(side=LEFT,fill=BOTH)
+sb.config(command=l.yview)
+root.mainloop()
+
+
+"
+
+question no2
+"
+from tkinter import *
+
+
+root=Tk()
+
+root.geometry("150x150")
+
+root.title("My second application")
+
+
+d={'abc':123,'def':456,'ghi':789,'jkl':987,'mno':4546,'pqr':7895,'stuc':5312}
+def insert():
+    k=e1.get()
+    v=e2.get()
+    d[k]=v
+    l.insert(END,k)
+    print(d)
+e1=Entry(root)
+e1.pack()
+e2=Entry(root)
+e2.pack()
+b=Button(root,text="insert",command=insert)
+b.pack()
+sb=Scrollbar(root)
+sb.pack(side=RIGHT,fill=Y)
+l=Listbox(root,yscrollcommand=sb.set)
+
+for key in d.keys():
+    l.insert(END," "+str(key))
+l.pack(side=LEFT,fill=BOTH)
+sb.config(command=l.yview)
+root.mainloop()
+
+"
